@@ -1,0 +1,6 @@
+@DelegatingHandlerTest_HostAddress = http://localhost:5010
+
+GET {{DelegatingHandlerTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
